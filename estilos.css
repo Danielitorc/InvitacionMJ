@@ -45,7 +45,7 @@ header{
     font-size: 30px;
     font-weight: bold;
     color: rgb(241, 72, 213);
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 
 .menu{
@@ -75,7 +75,7 @@ header{
 }
 
 .texto_header{
-    padding: 500px 25px;
+    padding: 515px 25px;
     text-align: center;
     font-size: 25px;
     color: rgb(214, 138, 195);

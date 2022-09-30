@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courgette', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background: linear-gradient(to bottom, rgba(37, 35, 39, 0.6), rgba(12, 11, 11, 0.4)), 
+    url(img/papas.jpg) no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.nav{
+    width: 100%;
+    padding: 15px 10px;
+    text-align: center;
+    align-items: center;
+    transition: all .5s ease;
+    position: fixed;
+}
+
+.nav.active{
+    background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    padding: 8px;
+}
+
+.nav.active .logo,
+.nav.active .menu  a{
+    margin-bottom: 0;
+    color: #101213;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(241, 72, 213);
+    margin-bottom: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    list-style: none;
+    margin: 8px;
+}
+
+.menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(231, 163, 220);
+    transition: all 0.4s;
+    transition-property: color, background;
+}
+
+.menu li a:hover{
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #000;
+    background: #fff;
+}
+
+.texto_header{
+    padding: 500px 25px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(214, 138, 195);
+}
+
+.contenedor_principal{
+
+    height: 100vh;
+    width: 100%;
+
+}
+
+.palabra{
+    margin: 20px;
+    padding: 50px 0;
+    color: rgb(192, 30, 30);
+    background-color: #fff;
+}
+
+
+

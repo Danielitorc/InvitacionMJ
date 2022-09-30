@@ -99,7 +99,7 @@ header{
 }
 
 .texto_header{
-    padding: 605px 25px 0 25px;
+    padding: 585px 25px 0 25px;
     text-align: center;
     font-size: 25px;
     color: rgb(214, 138, 195);
@@ -226,6 +226,9 @@ header{
 }
 
 .wp{
-    margin-top: 5px;
+    padding-top: 12px;
 }
 
+.navegacion{
+    padding: 10px 0;
+}

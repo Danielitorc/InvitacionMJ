@@ -27,6 +27,8 @@ h3{
 .texto{
     margin-bottom: 20px;
     color: #801571;
+    font-size: 16.5px;
+    padding: 0 10px;
 }
 
 a{
@@ -155,13 +157,89 @@ header{
     object-fit: cover;
 }
 
+/*** Contenido ***/
+
+.contenido_texto{
+    margin: 25px 0 0 0;
+}
+
+.texto_cuerpo{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #801571;
+
+}
 
 .section_conteo{
-    margin-top: 35px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.texto_centrado{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(184, 21, 143);
+    margin-bottom: 10px;
+}
+
+.iglesia{
+    margin-bottom: 12px;
+}
+
+.images .img_z{
+    font-size: 10px;
+}
+
+.boton_ubicacion{
+    display: inline-block;
+    color: rgb(151, 1, 156);
+    background-color: rgba(163, 100, 165, 0.5);
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 10px;
+    border: 0px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+
+    -webkit-box-shadow: 0px 3px 8px 4px rgba(159, 20, 214, 0.7);
+    -moz-box-shadow: 0px 3px 8px 4px rgba(159, 20, 214, 0.7);
+    box-shadow: 0px 3px 8px 4px rgba(159, 20, 214, 0.7);
+    border-radius: 10px;
+}
+
+.boton:hover{
+    animation: pulsate 2s ease-in-out;
+}
+
+@keyframes pulsate{
+    0%{
+        box-shadow: 
+        0 0 25px #46026d,
+        0 0 50px #2b055e;
+    }
+}
+
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.boton_unico{
+    margin-bottom: 15px;
+}
+
+.traje{
+    margin: 15px 0;
+    width: 40%;
+}
+
+.final{
+    margin: 20px 0 0 0;
 }
 
 .countdown{
@@ -169,12 +247,13 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
     width: 95%;
+    margin-bottom: 10px;
 }
 
 .countdown div{
     display: grid;
     place-items: center;
-    padding: 12px;
+    padding: 15px;
 }
 
 .text_numeros{
@@ -184,7 +263,7 @@ header{
     place-items: center;
     height: 50px;
     width: 50px;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: bold;
     -webkit-box-shadow: 0px 3px 8px 4px rgba(159, 20, 214, 0.7);
     -moz-box-shadow: 0px 3px 8px 4px rgba(159, 20, 214, 0.7);
@@ -204,7 +283,7 @@ header{
 .site-footer{
     background-color: black;
     padding: 1rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .site-footer p{

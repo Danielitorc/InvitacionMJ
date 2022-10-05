@@ -4,7 +4,7 @@ const $minutes = document.getElementById('minutes');
 const $seconds = document.getElementById('seconds');
 
 //Fecha a futuro
-const countDownDate = new Date('Oct 17 2022 17:00:00').getTime();
+const countDownDate = new Date('Oct 22 2022 17:00:00').getTime();
 
 
 let interval = setInterval(function(){
